@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array sorting and mapping in JS</title>
+</head>
+<body>
+    <h1>Array sorting</h1>
+    <button onclick="Ascending()">Ascending</button>
+    <button onclick="Descending()">Descending</button>
+    <p id="p1"></p>
+    <script>
+        var points= [5,9,10,30,1,9000,20];
+        document.getElementById("p1").innerHTML=points;
+        function Ascending() {
+            points.sort(function(a,b){return a-b});
+            document.getElementById("p1").innerHTML=points;
+        }
+         function Descending() {
+            points.sort(function(a,b){return });
+            document.getElementById("p1").innerHTML=points;
+        }
+    </script>
+</body>
+</html>
